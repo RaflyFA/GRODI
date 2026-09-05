@@ -5,24 +5,20 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'GRODI — Popok Kain Pintar',
   description: 'Kelola, belanja, dan tukar popok kain modular dengan GRODI.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/icon bulat.png',
       },
     ],
-    apple: '/apple-icon.png',
+    shortcut: '/icon bulat.png',
+    apple: '/icon bulat.png',
   },
 }
 
 export const viewport: Viewport = {
   colorScheme: 'light',
-  themeColor: 'white',
+  themeColor: '#003c8d',
 }
 
 export default function RootLayout({
